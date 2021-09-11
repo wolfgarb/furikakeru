@@ -187,21 +187,39 @@ body {
     border-left: solid 6px var(--fire-opal);
 }
 
-.hideNumber {
-    display: none;
+
+@media screen and (max-width: 980px) {
+    .hero {
+        justify-content: center;
+        position: relative;
+    }
 }
 
-.phone:hover + .hideNumber {
-    display: block;
-    font-size: 20px;
-    color: var(--fire-opal);
+@media screen and (max-width: 768px) {
+    .hero {
+        justify-content: center;
+        position: relative;
+    }
+
+    .bio p {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: space-around;
+    }
+
+    .bio {
+        flex-wrap: wrap;
+    }
 }
 
-/* 
-@media screen and (max-width: 980px)
-
-
-
-@media screen and (max-width: 768px)
-
-@media screen and (max-width: 575px)  */
+@media screen and (max-width: 575px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+    .left-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
