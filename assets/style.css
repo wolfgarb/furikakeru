@@ -62,7 +62,6 @@ body {
 }
 
 .left-container {
-    display: flex;
     flex: 1;
 }
 
@@ -76,13 +75,12 @@ body {
 .right-container {
     display: flex;
     flex-wrap: wrap;
-    flex: 4;
+    flex: 3 1 10%;
     border-left: solid 6px var(--fire-opal);
+    align-content: flex-start;
 }
 
 .about-info p {
-    display: flex;
-    justify-content: center;
     padding: 20px;
 }
 
@@ -91,38 +89,71 @@ body {
     padding: 20px;
 }
 
+.bio {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.bio p {
+    margin-top: 10px;
+    line-height: 1.2;
+    justify-content: center;
+}
+.bio img {
+    position: relative;
+    margin: 20px;
+    opacity: 60%;
+    max-height: 200px;
+    max-width: 288px;
+}
+
+.bio img:hover {
+    opacity: 90%;
+    border: solid var(--fire-opal) 6px;
+}
 
 .projectMain img, .projectSmall img {
-    display: flex;
+    display: auto;
     flex-wrap: wrap;
     opacity: 60%;
     width: 100%;
     height: 100%;
 }
 
+
+.projectMain img:hover, .projectSmall img:hover {
+    opacity: 90%;
+}
+
 .projectMain {
     display: flex;
-    flex: 4 100%;
-    margin: 20px;
+    flex: 2 100%;
+    max-width: 80%;
+    max-height: 40%;
     border: solid var(--fire-opal) 6px;
+    position: relative;
+    margin: 0 0 20px 20px;
 }
 
 
 .projectSmall {
+    position: relative;
     display: flex;
-    flex: 1 25%;
-    margin: 0 20px 20px 20px;
     border: solid var(--fire-opal) 6px;
-    max-height: 30%;
-    max-width: 40%;
+    height: 20%;
+    width: 40%;
+    margin: 0 0 20px 20px;
 }
 /*  */
 .projectCaption h3, .projectCaption h4, .projectCaption h5 {
-    display: flex;
-    align-content: flex-end;
-    justify-content: flex-start;
     background-color: var(--fire-opal);
     color: var(--off-white);
+}
+
+.projectCaption {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .contact-info {
@@ -149,6 +180,13 @@ body {
     color: var(--fire-opal);
 }
 
+.contact-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3 1 10%;
+    border-left: solid 6px var(--fire-opal);
+}
+
 .hideNumber {
     display: none;
 }
@@ -158,3 +196,12 @@ body {
     font-size: 20px;
     color: var(--fire-opal);
 }
+
+/* 
+@media screen and (max-width: 980px)
+
+
+
+@media screen and (max-width: 768px)
+
+@media screen and (max-width: 575px)  */
