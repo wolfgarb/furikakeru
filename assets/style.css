@@ -237,6 +237,12 @@ h5 {
     .bio {
         flex-wrap: wrap;
     }
+
+    .contact-links ul li a {
+        font-size: 24px;
+        flex-wrap: wrap;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -244,29 +250,45 @@ h5 {
         font-size: 54px;
     }
 
-    .hero nav ul li a {
-        font-size: 36px;
+    .hero div {
+        padding: 0;
+    }
+    .hero div ul li a {
+        font-size: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .left-container {
-        flex-wrap: wrap;
-        flex: 1 100%;
-        width: 100%;
         justify-content: center;
-        flex-direction: column;
-        font-size: 48px;
+        align-content: space-around;
+    }
+
+    h2 {
+        justify-content: space-around;
     }
 
     .bio p {
-        font-size: 28px;
+        font-size: 16px;
     }
 
-    .projectMain, .projectSmall {
-        width: 100%;
+    .bio img {
+        opacity: 90%;
+    }
+
+   .projectSmall {
+        width: 60%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
 
+    .right-container:last-child {
+        padding-bottom: 80px;
+    }
+
+    .contact-links {
+        border: none;
+    }
 
 }
