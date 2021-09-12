@@ -33,12 +33,12 @@ body {
 
 .hero h1 {
     padding: 20px;
-    font-size: 48px;
+    font-size: 52px;
 }
 
 .hero div {
     padding: 35px 35px 0 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .hero div ul li {
@@ -68,7 +68,7 @@ body {
 .left-container h2 {
     padding: 20px;
     color: var(--fire-opal);
-    font-size: 36px;
+    font-size: 40px;
     text-align: right;
 }
 
@@ -98,6 +98,8 @@ body {
     margin-top: 10px;
     line-height: 1.2;
     justify-content: center;
+    font-size: 18px;
+    font-weight: lighter;
 }
 .bio img {
     position: relative;
@@ -151,7 +153,7 @@ body {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .projectMain h4 {
@@ -160,11 +162,11 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 26px;
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: lighter;
     font-style: italic;
 }
@@ -182,7 +184,7 @@ h5 {
 .contact-info nav ul li {
     display: flex;
     color: var(--off-black);
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 20px;
     justify-content: center;
     align-items: center;
@@ -234,11 +236,33 @@ h5 {
 
 @media screen and (max-width: 575px) {
     .hero h1 {
-        font-size: 40px;
+        font-size: 54px;
     }
+
+    .hero nav ul li a {
+        font-size: 36px;
+    }
+
     .left-container {
         display: flex;
         flex-wrap: wrap;
+        flex: 1 100%;
         width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 48px;
     }
+
+    .bio p {
+        font-size: 28px;
+    }
+
+    .projectMain, .projectSmall {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
 }
