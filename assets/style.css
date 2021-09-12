@@ -177,12 +177,24 @@ h5 {
     top: 10px;
     left: 10px;
 }
-.contact-links {
+
+.contact-info {
     display: flex;
     flex-wrap: wrap;
-    flex: 3 1 10%;
+    padding-bottom: 50px;
+}
+
+.contact-links {
     border-left: solid 6px var(--fire-opal);
+    display: flex;
+    flex: 3 1 10%;
+}
+
+.contact-links ul {
+    display: inline-flex;
+    list-style-type: none;
     text-decoration: none;
+    align-items: center;
 }
 
 .contact-links ul li {
