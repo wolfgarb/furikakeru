@@ -146,7 +146,7 @@ body {
     width: 40%;
     margin: 0 0 20px 20px;
 }
-/*  */
+
 .projectCaption h3, .projectCaption h4, .projectCaption h5 {
     background-color: var(--fire-opal);
     color: var(--off-white);
@@ -177,22 +177,10 @@ h5 {
     left: 10px;
 }
 
-<<<<<<< HEAD
-.contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 50px;
-}
-
-.contact-links {
-=======
 .contact-links {
     display: flex;
     flex: 3 1 10%;
->>>>>>> develop
     border-left: solid 6px var(--fire-opal);
-    display: flex;
-    flex: 3 1 10%;
 }
 
 .contact-links ul {
@@ -225,6 +213,9 @@ h5 {
     color: var(--fire-opal);
 }
 
+.contact-header {
+    padding: 0;
+}
 
 @media screen and (max-width: 980px) {
     .hero {
