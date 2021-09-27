@@ -113,8 +113,8 @@ body {
     border: solid var(--fire-opal) 6px;
 }
 
-.projectMain img, .projectSmall img {
-    display: auto;
+.projectMain a img, .projectSmall a img, .projectSmall img {
+    display: flex;
     flex-wrap: wrap;
     opacity: 60%;
     width: 100%;
@@ -127,7 +127,6 @@ body {
 }
 
 .projectMain {
-    display: flex;
     flex: 2 100%;
     max-width: 80%;
     max-height: 40%;
@@ -175,12 +174,19 @@ h5 {
     top: 10px;
     left: 10px;
 }
+
 .contact-links {
     display: flex;
-    flex-wrap: wrap;
     flex: 3 1 10%;
     border-left: solid 6px var(--fire-opal);
     text-decoration: none;
+}
+
+.contact-links ul {
+	display: inline-flex;
+	list-style-type: none;
+	text-decoration: none;
+	align-items: center;
 }
 
 .contact-links ul li {
