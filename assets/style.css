@@ -115,8 +115,8 @@ body {
     border: solid var(--fire-opal) 6px;
 }
 
-.projectMain img, .projectSmall img {
-    display: auto;
+.projectMain a img, .projectSmall a img, .projectSmall img {
+    display: flex;
     flex-wrap: wrap;
     opacity: 60%;
     width: 100%;
@@ -129,7 +129,6 @@ body {
 }
 
 .projectMain {
-    display: flex;
     flex: 2 100%;
     max-width: 80%;
     max-height: 40%;
@@ -178,6 +177,7 @@ h5 {
     left: 10px;
 }
 
+<<<<<<< HEAD
 .contact-info {
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +185,11 @@ h5 {
 }
 
 .contact-links {
+=======
+.contact-links {
+    display: flex;
+    flex: 3 1 10%;
+>>>>>>> develop
     border-left: solid 6px var(--fire-opal);
     display: flex;
     flex: 3 1 10%;
@@ -195,6 +200,13 @@ h5 {
     list-style-type: none;
     text-decoration: none;
     align-items: center;
+}
+
+.contact-links ul {
+	display: inline-flex;
+	list-style-type: none;
+	text-decoration: none;
+	align-items: center;
 }
 
 .contact-links ul li {
