@@ -5,6 +5,7 @@ A website created with HTML/CSS that showcases projects completed during the Uni
 
 ## Preview
 Here is a mock-up of how the page looks and functions.
+
 <img src="assets\images\preview.png"></img>
 
 ## Built With
