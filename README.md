@@ -1,7 +1,7 @@
 # Working Portfolio
 
 ## Purpose
-A mock-up of my own website to show-case my work and skills learned through out this course and beyond!
+A website created with HTML/CSS that showcases projects completed during the University of Richmond Coding Bootcamp.
 
 ## Preview
 Here is a mock-up of how the page looks and functions.
